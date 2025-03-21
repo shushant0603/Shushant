@@ -1,0 +1,16 @@
+
+.home{
+    /* background-color: #c7c5c5; */
+    height: 10vh;
+    width: 55%;
+    margin: 0 auto;
+    color: #cbd5e1;
+}
+
+@media(max-width:600px){
+  .home{
+    width: 100%;
+  }
+}
+
+
