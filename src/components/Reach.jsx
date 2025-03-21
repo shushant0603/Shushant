@@ -1,8 +1,8 @@
 import React from 'react'
 const Reachs = [
-  "Twitter",
-  "LinkedIn",
-  "Email",
+  { name: "Twitter", link: "https://x.com/shushantku68275?s=09" },
+  { name: "LinkedIn", link: "https://www.linkedin.com/in/shushant-kumar-771775290" },
+  { name: "Email", link: "mailto:shushantkumar0625@email.com" },
   ];
 
 const Reach = () => {
@@ -13,7 +13,9 @@ const Reach = () => {
       <div className="Reach-grid" style={style.grid}>
         {Reachs.map((Reachs, index) => (
           <div key={index} className="skill-item items">
-            {Reachs}
+          <a href={Reachs.link} style={style.link} target="_blank" rel="noopener noreferrer">
+              {Reachs.name}
+            </a>
           </div>
         ))}
       </div>
@@ -24,6 +26,16 @@ const style={
 container:{
    marginTop:"-15px",
  
+},
+link:{
+    color: "rgb(26, 25, 25)",
+    textDecoration: "none",
+    fontSize: "0.9rem",
+    fontWeight: "400",
+    transition: "all 0.3s ease",
+    "&:hover": {
+      color: "#1a73e8",
+    },
 },
 h3:{
    
