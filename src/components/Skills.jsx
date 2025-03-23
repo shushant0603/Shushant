@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../stylesheets/skills.css'
 const skills = [
-    "HTML","CSS","TailwindCSS", "JavaScript", "TypeScript", "React", "Next.js",
+    "HTML","CSS","TailwindCSS","GSAP", "JavaScript", "TypeScript", "React", "Next.js",
     "Node.js", "Express.js", "MongoDB",
     "C++","STL","OpenCV", "Python","DSA","ReactNative", "Postman", "Git",
     "VS Code",
