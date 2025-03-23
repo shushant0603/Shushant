@@ -4,7 +4,7 @@ import '../stylesheets/skills.css'
 const skills = [
     "HTML","CSS","TailwindCSS", "JavaScript", "TypeScript", "React", "Next.js",
     "Node.js", "Express.js", "MongoDB",
-    "C++", "Python","DSA","ReactNative", "Postman", "Git",
+    "C++","STL","OpenCV", "Python","DSA","ReactNative", "Postman", "Git",
     "VS Code",
   ];
   
