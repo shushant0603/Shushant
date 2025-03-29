@@ -2,9 +2,9 @@ import React from 'react'
 
 import '../stylesheets/skills.css'
 const skills = [
-    "HTML","CSS","TailwindCSS","GSAP", "JavaScript", "TypeScript", "React", "Next.js",
-    "Node.js", "Express.js", "MongoDB",
-    "C++","STL","OpenCV", "Python","DSA","ReactNative", "Postman", "Git",
+    "HTML","CSS","TailwindCSS","GSAP", "JavaScript", "TypeScript", "React",
+    "Node.js", "Express.js", "MongoDB","SQL",
+    "C++","STL", "Python","DSA","ReactNative", "Postman", "Git",
     "VS Code",
   ];
   
