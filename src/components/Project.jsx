@@ -42,9 +42,9 @@ const Project = () => {
             <p style={styles.description}>{project.description}</p>
 
             <div style={styles.btnGroup}>
-              <a href={project.liveDemo} target="_blank" rel="noreferrer" style={styles.btn}>
+          {/* {/*  <a href={project.liveDemo} target="_blank" rel="noreferrer" style={styles.btn}>
                 Live Demo
-              </a>
+              </a> /*} */}
               <a href={project.github} target="_blank" rel="noreferrer" style={styles.btn}>
                 GitHub
               </a>
