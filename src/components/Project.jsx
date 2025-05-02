@@ -71,6 +71,8 @@ const styles = {
       borderRadius: "8px",
       padding: "1.5rem",
       transition: "transform 0.3s ease",
+      position:"relative",
+      overflow:"hidden",
     },
     image: {
       width: "100%",
@@ -87,19 +89,36 @@ const styles = {
       color: "#ccc",
     },
     btnGroup: {
-      display: "flex",
-      gap: "0.5rem",
+      display: 'flex',
+      justifyContent: 'space-between', // Adjust alignment
+      flexWrap: 'wrap', // Allow wrapping on smaller screens
+      gap: '10px', // Add spacing between buttons
+      marginTop: '10px',
     },
     btn: {
-      padding: "0.6rem 1rem",
-      borderRadius: "4px",
+      padding: '10px 20px',
+      textDecoration: 'none',
+      color: '#fff',
       backgroundColor: "#333",
-      color: "#fff",
-      textDecoration: "none",
-      fontWeight: "500",
-      transition: "background-color 0.3s",
+      borderRadius: '5px',
+      textAlign: 'center',
+      flex: '1 1 calc(33.33% - 10px)', // Buttons take up 1/3 of the row minus the gap
+  maxWidth: '150px', // Limit maximum width
+  minWidth: '100px', // Ensure a minimum width
+  boxSizing: 'border-box',
     },
+    // Add media query for smaller screens
+'@media (max-width: 768px)': {
+  btn: {
+    flex: '1 1 calc(50% - 10px)', // Buttons take up 1/2 of the row on smaller screens
+  },
+},
+'@media (max-width: 480px)': {
+  btn: {
+    flex: '1 1 100%', // Buttons take full width on very small screens
+  },
+},
   };
-  
+
 
 export default Project
