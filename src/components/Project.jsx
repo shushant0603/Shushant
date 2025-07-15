@@ -3,14 +3,14 @@ import React from 'react'
  const projects = [
     {
       title: "Chat App",
-      description: "This is a chat application built using MERN Stack, where you can communicate with registered users.",
+      description: "Working",
       image:"Chat__app.png",
-      liveDemo: "https://chat-app-frontend-git-main-shushant-kumars-projects.vercel.app",
-      github: "https://github.com/shushant0603/chat_App_Frontend",
+      // liveDemo: "https://chat-app-frontend-git-main-shushant-kumars-projects.vercel.app",
+      // github: "https://github.com/shushant0603/chat_App_Frontend",
     },
     {
       title: "Code_review_AI",
-      description: "This is a Code Review application built using the MERN Stack & Using GEMINI LLM",
+      description: "This application built using the MERN Stack & Using GEMINI API",
       image:"code-review.png",
       liveDemo: "https://code-review-frontend-i23a.onrender.com/",
       github: "https://github.com/shushant0603/Code_review_frontend",
@@ -90,23 +90,29 @@ const styles = {
     },
     btnGroup: {
       display: 'flex',
-      justifyContent: 'space-between', // Adjust alignment
-      flexWrap: 'wrap', // Allow wrapping on smaller screens
-      gap: '10px', // Add spacing between buttons
+      justifyContent: 'space-between',
+      flexWrap: 'wrap',
+      gap: '10px',
       marginTop: '10px',
     },
+    
     btn: {
-      padding: '10px 20px',
+      padding: '10px 12px',
       textDecoration: 'none',
       color: '#fff',
       backgroundColor: "#333",
       borderRadius: '5px',
       textAlign: 'center',
-      flex: '1 1 calc(33.33% - 10px)', // Buttons take up 1/3 of the row minus the gap
-  maxWidth: '150px', // Limit maximum width
-  minWidth: '100px', // Ensure a minimum width
-  boxSizing: 'border-box',
+      flex: '1 1 45%', // About half, allowing wrapping
+      maxWidth: '150px',
+      minWidth: '100px',
+      boxSizing: 'border-box',
+    
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis',
     },
+    
     // Add media query for smaller screens
 '@media (max-width: 768px)': {
   btn: {
