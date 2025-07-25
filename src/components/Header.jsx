@@ -3,7 +3,7 @@ import React from 'react';
 import '../stylesheets/header.css';
 
 const socialLinks = [
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/shushant-kumar-771775290", icon: "/icons/linkedin.png" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/shushant-pandey-771775290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", icon: "/icons/linkedin.png" },
   { name: "Twitter", href: "https://x.com/shushantku68275?s=09", icon: "/icons/twitter.png" },
   { name: "GitHub", href: "https://github.com/shushant0603", icon: "/icons/github.png" },
   { name: "CV", href: "SHUSHANT.pdf", icon: "/icons/cv.png" },
