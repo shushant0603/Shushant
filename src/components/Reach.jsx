@@ -1,7 +1,7 @@
 import React from 'react'
 const Reachs = [
   { name: "Twitter", link: "https://x.com/shushantku68275?s=09" },
-  { name: "LinkedIn", link: "https://www.linkedin.com/in/shushant-kumar-771775290" },
+  { name: "LinkedIn", link: "https://www.linkedin.com/in/shushant-pandey-771775290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "Email", link: "mailto:shushantkumar0625@email.com" },
   ];
 
