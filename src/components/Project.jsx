@@ -3,7 +3,7 @@ import React from 'react'
  const projects = [
     {
       title: "Chat With Krishna",
-      description: "AI fbdncndfcdsxhjbjdncsd Powred Chat Application using MERN Stack & OpenAI in the context of Bhagvad Gita",
+      description: "An AI-powered chat application built with MERN Stack and OpenAI, offering insights and conversations based on the Bhagavad Gita.",
       image:"chat.png",
       liveDemo: "https://frontend-chat-with-krishna.onrender.com/",
       // github: "https://github.com/shushant0603/chat_App_Frontend",
