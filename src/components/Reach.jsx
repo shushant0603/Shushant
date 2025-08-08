@@ -24,7 +24,12 @@ const Reach = () => {
 }
 const style={
 container:{
-   marginTop:"-15px",
+  //marginTop: "20px", // Adjust the top margin to move the box down
+  marginBottom: "20px", // Add space below the box
+  padding: "20px", // Add padding inside the box for better spacing
+  //backgroundColor: "#f9f9f9", // Optional: Add a background color for visibility
+  borderRadius: "10px", // Optional: Add rounded corners
+  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
  
 },
 link:{
@@ -32,6 +37,7 @@ link:{
     textDecoration: "none",
     fontSize: "0.9rem",
     fontWeight: "400",
+    
     transition: "all 0.3s ease",
     "&:hover": {
       color: "#1a73e8",

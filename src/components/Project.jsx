@@ -2,10 +2,10 @@ import React from 'react'
 
  const projects = [
     {
-      title: "Chat App",
-      description: "Working",
-      image:"Chat__app.png",
-      // liveDemo: "https://chat-app-frontend-git-main-shushant-kumars-projects.vercel.app",
+      title: "Chat With Krishna",
+      description: "AI fbdncndfcdsxhjbjdncsd Powred Chat Application using MERN Stack & OpenAI in the context of Bhagvad Gita",
+      image:"chat.png",
+      liveDemo: "https://frontend-chat-with-krishna.onrender.com/",
       // github: "https://github.com/shushant0603/chat_App_Frontend",
     },
     {
@@ -67,12 +67,17 @@ const styles = {
       gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
     },
     card: {
+      display: "flex",
+      flexDirection: "column", // Ensures content stacks vertically
+      justifyContent: "space-between", 
       backgroundColor: "#1f1f1f",
       borderRadius: "8px",
       padding: "1.5rem",
       transition: "transform 0.3s ease",
       position:"relative",
       overflow:"hidden",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+      minHeight:"350",
     },
     image: {
       width: "100%",
@@ -85,8 +90,10 @@ const styles = {
       fontSize: "1.2rem",
     },
     description: {
-      marginBottom: "1rem",
+      marginBottom: "10px",
       color: "#ccc",
+      // marginBottom:"10px",
+      flexGrow:1,
     },
     btnGroup: {
       display: 'flex',
