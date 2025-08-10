@@ -8,13 +8,7 @@ import React from 'react'
       liveDemo: "https://frontend-chat-with-krishna.onrender.com/",
       // github: "https://github.com/shushant0603/chat_App_Frontend",
     },
-    {
-      title: "Code_review_AI",
-      description: "This application built using the MERN Stack & Using GEMINI API",
-      image:"code-review.png",
-      liveDemo: "https://code-review-frontend-i23a.onrender.com/",
-      github: "https://github.com/shushant0603/Code_review_frontend",
-    },
+   
     {
         title: " Smart College Companion",
         description: "A web app to help students manage tasks, events, and resources efficiently.",
@@ -22,6 +16,14 @@ import React from 'react'
         liveDemo: "https://smart-college-companion-frontend.onrender.com",
         github: "https://github.com/shushant0603/Smart_college_companion_Frontend",
       },
+      {
+        title: "Note-Code",
+        description: "A web app for writing, running, and organizing code alongside Algorithm seamlessly.",
+        image: "NoteCode.png",
+        liveDemo: "https://note-code-jade.vercel.app/", // apne actual deployed link ka URL daalna
+        // github: "https://github.com/shushant0603/-NoteCode"
+    },
+    
   ];
   
 
@@ -43,7 +45,7 @@ const Project = () => {
 
             <div style={styles.btnGroup}>
            <a href={project.liveDemo} target="_blank" rel="noreferrer" style={styles.btn}>
-                Live Demo
+                Live 
                </a> 
               <a href={project.github} target="_blank" rel="noreferrer" style={styles.btn}>
                 GitHub
