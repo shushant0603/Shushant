@@ -20,7 +20,7 @@ import React from 'react'
         title: "Note-Code",
         description: "A web app for writing, running, and organizing code alongside Algorithm seamlessly.",
         image: "NoteCode.png",
-        liveDemo: "https://note-code-jade.vercel.app/", // apne actual deployed link ka URL daalna
+        liveDemo: "https://notecode-oz67.onrender.com/", // apne actual deployed link ka URL daalna
         // github: "https://github.com/shushant0603/-NoteCode"
     },
     
