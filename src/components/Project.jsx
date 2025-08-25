@@ -4,7 +4,7 @@ import React from 'react'
     {
       title: "Chat With Krishna",
       description: "An AI-powered chat application built with MERN Stack and OpenAI, offering insights and conversations based on the Bhagavad Gita.",
-      image:"chat.png",
+      image:"chat.webp",
       liveDemo: "https://frontend-chat-with-krishna.onrender.com/",
       // github: "https://github.com/shushant0603/chat_App_Frontend",
     },
@@ -12,14 +12,14 @@ import React from 'react'
     {
         title: " Smart College Companion",
         description: "A web app to help students manage tasks, events, and resources efficiently.",
-        image:"collage_companion.png",
+        image:"collage_companion.webp",
         liveDemo: "https://smart-college-companion-frontend.onrender.com",
         github: "https://github.com/shushant0603/Smart_college_companion_Frontend",
       },
       {
         title: "Note-Code",
         description: "A web app for writing, running, and organizing code alongside Algorithm seamlessly.",
-        image: "NoteCode.png",
+        image: "NoteCode.webp",
         liveDemo: "https://notecode-oz67.onrender.com/", // apne actual deployed link ka URL daalna
         // github: "https://github.com/shushant0603/-NoteCode"
     },
